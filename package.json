@@ -4,13 +4,14 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "start": "webpack serve --open",
     "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://tahseenzahra.github.io/do-list/dist/",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
@@ -18,7 +19,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
     "express": "^4.18.1",
-    "hint": "^7.1.2",
+    "hint": "^2.0.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
@@ -38,5 +39,7 @@
   "bugs": {
     "url": "https://github.com/tahseenzahra/do-list/issues"
   },
-  "homepage": "https://github.com/tahseenzahra/do-list#readme"
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
