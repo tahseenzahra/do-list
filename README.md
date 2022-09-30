@@ -8,7 +8,7 @@
 
 ## Live Project
 
-[Click here to view](not available)
+[Click here to view](https://tahseenzahra.github.io/do-list/)
 
 ## Getting Started
 
