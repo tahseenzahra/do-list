@@ -1,14 +1,9 @@
 import '../style.css';
 import dragDropIcon from '../images/drag-drop-icon.svg';
-// import refreshIcon from '../images/refresh_icon.svg';
-// import enterIcon from '../images/enter-icon.svg';
 import deleteIcon from '../images/delete-icon.svg';
 import toDoTask from './todolist.js';
 import updateListItem from './taskStatusManager.js';
 
-  // const refreshIcon = document.getElementById('refreshIcon');
-  // refreshIcon.src = refreshIcon ;
-  // refreshIcon.alt = 'refresh Icon';
 
 function getTaskList(task) {
   const toDoTaskItem = document.createElement('li');
