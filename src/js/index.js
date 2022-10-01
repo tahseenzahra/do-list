@@ -3,7 +3,6 @@ import dragDropIcon from '../images/drag-drop-icon.svg';
 import deleteIcon from '../images/delete-icon.svg';
 import toDoTask from './todolist.js';
 import updateListItem from './taskStatusManager.js';
-// import './dragdrop.js';
 
 function getTaskList(task) {
   const toDoTaskItem = document.createElement('li');
@@ -56,7 +55,6 @@ function getTaskList(task) {
     const toDoTaskplaceicon = document.createElement('img');
     toDoTaskplaceicon.src = dragDropIcon;
     toDoTaskplaceicon.alt = 'drag drop';
-    // toDoTaskplaceicon.checked = task.completed;
     toDoTaskplaceicon.className = 'drop-drag-icon';
     toDoTaskplaceicon.addEventListener('mousedown', () => {
       if (focusedItem) {
