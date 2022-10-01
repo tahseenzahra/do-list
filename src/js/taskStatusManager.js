@@ -6,7 +6,6 @@ export default function updateListItem(status, index) {
 
 document
   .getElementById('clear-btn')
-  // .getElementById('btn')
   .addEventListener('click', () => {
     const elements = document.getElementsByClassName('task-status');
     for (let i = elements.length - 1; i >= 0; i -= 1) {
