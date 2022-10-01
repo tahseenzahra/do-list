@@ -4,7 +4,6 @@ import deleteIcon from '../images/delete-icon.svg';
 import toDoTask from './todolist.js';
 import updateListItem from './taskStatusManager.js';
 
-
 function getTaskList(task) {
   const toDoTaskItem = document.createElement('li');
   let focusedItem = false;
